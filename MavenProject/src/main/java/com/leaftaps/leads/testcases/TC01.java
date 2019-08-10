@@ -13,7 +13,7 @@ public class TC01 extends ProjectSpecificMethods {
 	 }
 	@Test(dataProvider="fetchData")
 	public void runLogin(String username, String password) {
-		
+		System.out.println("Welcome DJ");
 		new LoginPage()
 		.enterUsername(username)
 		.enterPassword(password)
